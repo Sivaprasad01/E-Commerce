@@ -1,0 +1,30 @@
+.banner{
+    background-image: url('https://img.freepik.com/premium-photo/black-brick-wall-loft-interior-design-black-paint-facade_73152-3913.jpg'        )
+    
+}
+.banner{
+    height: 350px;
+    background-size: cover;
+}
+section{
+    margin-top: 6px;
+    /* background-color: rgb(65, 69, 92); */
+    background-image: url('https://img.freepik.com/premium-photo/black-brick-wall-loft-interior-design-black-paint-facade_73152-3913.jpg'        )
+
+}
+
+.card img{
+    transition: 1s;
+    height: 280px;
+    width: 100%;
+    padding:20px ;
+}
+.card img:hover{
+    transition: 2s;
+    transform: scale(1.08);
+}
+.card:hover{
+    box-shadow: 5px 12px 15px  rgb(117, 116, 116);
+    transition: 1s;
+    transform: scale(1.008);
+}

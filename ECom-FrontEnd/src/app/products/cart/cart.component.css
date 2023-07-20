@@ -1,0 +1,17 @@
+.icon{
+    cursor: pointer;
+}
+.container{
+    min-height: 600px;
+}
+.discount img{
+    height: 100px;
+    box-shadow: 5px 5px 10px black;
+    margin: 6px;
+    border-radius: 30px;
+}
+.discount img:hover{
+    box-shadow: 5px 5px 10px rgb(48, 210, 247);
+    transform: scale(1.020);
+
+}

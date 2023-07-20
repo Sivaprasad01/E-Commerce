@@ -1,0 +1,12 @@
+ 
+ 
+ 
+ img{
+    transition: 2s;
+    padding:20px ;
+}
+ img:hover{
+    transition: 2s;
+    transform: scale(1.08);
+}
+

@@ -1,0 +1,27 @@
+
+
+
+        E-Commerce 
+
+       -> ng new E-Commerce
+
+       Lazy Loading -  Lazy loading helps keep initial bundle sizes smaller, which in turn helps decrease load times.
+
+        -> ng g m products --route products --module app.module 
+
+        Create components in Lazy Loading -products module
+
+        1 allProducts - ng g c products/allProducts 
+        2 viewProducts - ng g c products/viewProducts 
+        3 wishlist - ng g c products/wishlist 
+        4 cart - ng g c products/cart
+
+        Create components not included in lazy loading 
+        
+        5 header - ng g c header 
+        6 footer - ng g c footer 
+        7 pageNotFound- ng g c pageNotFound
+
+        SetUp path for components
+
+        router-outlet 
